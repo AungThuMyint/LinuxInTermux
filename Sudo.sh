@@ -1,0 +1,1 @@
+apt update -y && apt install wget sudo dbus-x11 -y
