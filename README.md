@@ -4,4 +4,12 @@
 
 # *Installation Setup*
 
+*   *__git clone https://github.com/AungThuMyint/LinuxInTermux.git__*
+
+*   *__cd LinuxInTermux__*
+
+*   *__bash Kali.sh [Installation]__*
+
+*   *__bash RemoveKali.sh [Removing]__*
+
 # *Screenshot*
