@@ -78,5 +78,6 @@ EOM
 termux-fix-shebang $bin
 chmod +x $bin
 rm $tarball
+clear
 echo -e "\e[93mYou Can Launch Kali With The ./${bin} Script"
 echo -e "\e[92mThank You."
