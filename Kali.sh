@@ -37,7 +37,7 @@ if [ "$first" != 1 ];then
 	cd "$cur"
 fi
 mkdir -p kali-tmp
-bin=kali@cli.sh
+bin=kali-cli.sh
 echo -e "\e[34mWriting Launch Script ..."
 cat > $bin <<- EOM
 #!/bin/bash
