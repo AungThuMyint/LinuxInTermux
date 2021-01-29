@@ -80,9 +80,8 @@ chmod +x $folder/root/Sudo.sh
 termux-fix-shebang $bin
 chmod +x $bin
 rm $tarball
-rm -rf kali-tmp
 clear
-echo -e "\e[93mYou Can Launch Kali With The ./${bin} Script (Or) bash ${bin} Script."
-echo -e "\e[92mThank You."
-echo -e "\e[92mWelcome | Kali "
+echo -e "\e[92mInstallation Finished."
+clear
+echo -e "\e[92mWelcome | Kali@LocalHost "
 bash $bin
