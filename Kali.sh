@@ -28,7 +28,7 @@ if [ "$first" != 1 ];then
 		*)
 			echo -e "\e[91mUnknown Architecture ... !"; exit 1 ;;
 		esac
-		wget "https://github.com/AungThuMyint/Termux-Kali/blob/main/kali-rootfs-${archurl}.tar.xz?raw=true" -O $tarball
+		wget "https://github.com/AungThuMyint/TermuxLinuxFiles/blob/main/kali-rootfs-${archurl}.tar.xz?raw=true" -O $tarball
 	fi
 	cur=`pwd`
 	mkdir -p "$folder"
