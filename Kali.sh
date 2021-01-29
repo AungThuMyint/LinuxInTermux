@@ -77,8 +77,6 @@ EOM
 
 wget --tries=20 https://raw.githubusercontent.com/AungThuMyint/LinuxInTermux/main/Sudo.sh -O $folder/root/Sudo.sh
 chmod +x $folder/root/Sudo.sh
-bash $folder/root/Sudo.sh
-rm $folder/root/Sudo.sh
 termux-fix-shebang $bin
 chmod +x $bin
 rm $tarball
