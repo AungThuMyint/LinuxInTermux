@@ -75,9 +75,11 @@ else
 fi
 EOM
 
+wget --tries=20 https://raw.githubusercontent.com/AungThuMyint/LinuxInTermux/main/Sudo.sh -O $folder/root/Sudo.sh
+chmod +x $folder/root/Sudo.sh
 termux-fix-shebang $bin
 chmod +x $bin
 rm $tarball
 clear
-echo -e "\e[93mYou Can Launch Kali With The ./${bin} Script"
+echo -e "\e[93mYou Can Launch Kali With The ./${bin} Script (Or) bash ${bin} Script."
 echo -e "\e[92mThank You."
