@@ -114,7 +114,7 @@ clear
 echo 'Installing browser'
 apt install firefox-esr -y
 clear 
-echo 'Welcome to Andronix | Kali'
+echo 'Kali (XFCE) With VNC (Sudo)'
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile 
  
 bash $bin
