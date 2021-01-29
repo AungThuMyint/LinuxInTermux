@@ -1,4 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
+
+pkg update -y && pkg install curl proot tar -y
 pkg install wget -y 
 folder=kali-fs
 dlink="https://github.com/AungThuMyint/TermuxLinuxFiles/tree/main/"
