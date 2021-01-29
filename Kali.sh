@@ -83,5 +83,6 @@ rm $tarball
 clear
 echo -e "\e[92mInstallation Finished."
 clear
-echo -e "\e[92mWelcome | Kali@LocalHost "
+echo -e "\n\e[92mWelcome | Kali@LocalHost\n"
+echo -e "\e[93mIf You Want To [sudo su] | run bash Sudo.sh\n"
 bash $bin
