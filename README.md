@@ -25,3 +25,7 @@
 ![Demo01](https://github.com/AungThuMyint/TermuxLinuxFiles/blob/main/01.jpg)
 
 ![Demo02](https://github.com/AungThuMyint/TermuxLinuxFiles/blob/main/02.jpg)
+
+# *Installation Video*
+
+[![](https://i.ytimg.com/vi/pHEbsJ6j3YI/maxresdefault.jpg)](https://www.youtube.com/watch?v=pHEbsJ6j3YI)
