@@ -76,13 +76,13 @@ fi
 EOM
 
 wget --tries=20 https://raw.githubusercontent.com/AungThuMyint/TermuxLinuxFiles/main/Sudo.sh -O $folder/root/Sudo.sh
+wget --tries=20 https://raw.githubusercontent.com/AungThuMyint/TermuxLinuxFiles/main/Terminal.bashrc -O $folder/root/.bashrc
 chmod +x $folder/root/Sudo.sh
 termux-fix-shebang $bin
 chmod +x $bin
 rm $tarball
 clear
-echo -e "\e[92mInstallation Finished."
-clear
-echo -e "\n\e[92mWelcome | Kali@LocalHost\n"
-echo -e "\e[93mIf You Want To [sudo su] | run \e[91mbash Sudo.sh \e[93m... ! \n"
+echo -e "\n\e[92mWelcome | Kali\n"
+echo -e "\e[93mIf You Want To Install [Additional Toos] | run \e[91mbash Sudo.sh \e[93m... ! \n"
+echo -e "\e[93mIf You Want To Install [MetasploitFramework] | run \e[91mapt-get install metasploit-framework -y \e[93m... ! \n"
 bash $bin
