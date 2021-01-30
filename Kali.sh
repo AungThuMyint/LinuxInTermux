@@ -82,6 +82,7 @@ termux-fix-shebang $bin
 chmod +x $bin
 rm $tarball
 clear
-echo -e "\n\e[92mWelcome | Kali@LocalHost\n"
+echo -e "\n\e[92mWelcome | Kali\n"
 echo -e "\e[93mIf You Want To Install [Additional Toos] | run \e[91mbash Sudo.sh \e[93m... ! \n"
+echo -e "\e[93mIf You Want To Install [MetasploitFramework] | run \e[91mapt-get install metasploit-framework -y \e[93m... ! \n"
 bash $bin
