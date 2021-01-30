@@ -21,3 +21,7 @@
 *   *__python3 LinuxInTermux.py__*
 
 # *Screenshot*
+
+![Demo01](https://github.com/AungThuMyint/TermuxLinuxFiles/blob/main/01.jpg)
+
+![Demo02](https://github.com/AungThuMyint/TermuxLinuxFiles/blob/main/02.jpg)
