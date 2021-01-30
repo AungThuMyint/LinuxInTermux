@@ -10,6 +10,8 @@
 
 *   *__pip install colorama__*
 
+*   *__pkg install git__*
+
 # *Installation Setup*
 
 *   *__git clone https://github.com/AungThuMyint/LinuxInTermux.git__*
